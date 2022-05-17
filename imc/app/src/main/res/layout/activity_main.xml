@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/beje">
+
+    <TextView
+        android:id="@+id/textoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculando IMC :"
+        android:textSize="40dp"
+        android:textColor="@color/marrom"
+        android:layout_marginBottom="70dp"/>
+
+
+    <TextView
+        android:id="@+id/textoAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura: "
+        android:textSize="20sp"
+        android:textColor="@color/vinho"/>
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:inputType="numberDecimal"
+        android:hint="altura"/>
+
+    <TextView
+        android:id="@+id/textoPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso: "
+        android:textSize="20sp"
+        android:textColor="@color/vinho"/>
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:inputType="numberDecimal"
+        android:hint="peso" />
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Calcular"
+        android:background="@color/vinho"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"/>
+    <Button
+        android:id="@+id/fechar"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Fechar"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>

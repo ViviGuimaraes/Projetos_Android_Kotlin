@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelatorioActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relatório do aluno"
+        android:textSize="36sp"
+        android:textColor="@color/corTitulo"
+        android:layout_marginBottom="50dp"/>
+
+    <LinearLayout style="@style/campos">
+
+    <TextView
+        android:text="Nome do  aluno"
+        style="@style/NomeAluno" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:text=""
+            style="@style/CaixaTexto" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/campos">
+
+
+        <TextView style="@style/NomeAluno"
+            android:text=" Nota 1 "/>
+        <TextView
+            android:id="@+id/nota1"
+            style="@style/CaixaTexto"/>
+
+        <TextView style="@style/NomeAluno"
+            android:text="Nota 2"/>
+
+        <TextView
+            android:id="@+id/nota2"
+            style="@style/CaixaTexto" />
+
+        <TextView style="@style/NomeAluno"
+            android:text="Média "/>
+        <TextView
+            android:id="@+id/media"
+            style="@style/CaixaTexto"/>
+
+        <TextView style="@style/NomeAluno"
+            android:text="Condição "/>
+        <TextView
+            android:id="@+id/situacao"
+            style="@style/CaixaTexto"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

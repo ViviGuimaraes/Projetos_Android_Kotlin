@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/beje">
+
+    <TextView
+        android:id="@+id/relatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado  IMC :"
+        android:textSize="40dp"
+        android:textColor="@color/marrom"
+        android:layout_marginBottom="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura: "
+        android:textColor="@color/vinho"
+        android:textSize="27dp" />
+
+    <TextView
+        android:id="@+id/altura"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/beje01"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/marrom"
+        android:textSize="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso: "
+        android:textSize="27dp"
+        android:textColor="@color/vinho"/>
+
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@color/beje01"
+        android:textColor="@color/marrom"
+        android:text=""
+        android:textSize="27dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMC: "
+        android:textSize="27dp"
+        android:textColor="@color/vinho"/>
+
+    <TextView
+        android:id="@+id/imc"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/beje01"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/marrom"
+        android:textSize="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situação: "
+        android:textSize="27dp"
+        android:textColor="@color/vinho"/>
+
+    <TextView
+        android:id="@+id/situacao"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/beje01"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/marrom"
+        android:textSize="27dp" />
+
+
+
+</LinearLayout>
